@@ -1,0 +1,80 @@
+.Footer {
+
+    .circlesBlock {
+        padding: 0 50px;
+
+        .title {
+            font-weight: bold;
+            font-size: 48px;
+        }
+
+        .circles {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .circle {
+                box-shadow: 0 10px 20px rgba(94, 94, 94, 0.1);
+                border-radius: 90px;
+                background: #FFFFFF;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                width: 180px;
+                height: 180px;
+            }
+
+            .bigText {
+                font-weight: bold;
+                font-size: 36px;
+            }
+
+            .circleBlockVector {
+                display: flex;
+                align-items: center;
+            }
+
+            .circleBlock {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+                font-size: 17px;
+                font-weight: bold;
+
+                .text {
+                    position: absolute;
+                    bottom: -30px;
+                }
+            }
+        }
+    }
+
+    .links {
+        box-sizing: border-box;
+        margin-top: 100px;
+        height: 166px;
+        background: #F5F5F5;
+        padding: 30px 350px 50px 50px;
+        display: flex;
+        justify-content: space-between;
+
+        .linkBlock {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 18px;
+            line-height: 22px;
+
+            .boldText {
+                font-weight: bold;
+            }
+        }
+    }
+
+    .CopyRight {
+        padding: 20px 50px;
+    }
+}
