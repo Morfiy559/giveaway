@@ -1,3 +1,15 @@
 .App {
   width: 1280px;
 }
+button{
+  width: 380px;
+  height: 60px;
+  background: #000000;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}

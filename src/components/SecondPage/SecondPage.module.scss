@@ -1,0 +1,32 @@
+.stepOne {
+    margin: 100px 0;
+    padding: 0 53px 0 67px;
+    display: flex;
+
+    .textBlock {
+        margin-left: 135px;
+        width: 480px;
+        .stepNumber {
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 58px;
+            color: rgba(0, 0, 0, 0.6);
+        }
+        .title{
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 48px;
+        }
+        .text{
+            font-size: 18px;
+            line-height: 22px;
+            color: rgba(0, 0, 0, 0.6);
+        }
+        .agreeButton{
+            margin-top: 40px;
+        }
+        .image{
+            margin-left: 20px;
+        }
+    }
+}
