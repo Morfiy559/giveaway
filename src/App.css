@@ -1,5 +1,5 @@
 .App {
-  width: 1280px;
+  /*width: 1280px;*/
 }
 button{
   width: 380px;
@@ -12,4 +12,10 @@ button{
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+@media (max-width: 768px) {
+  button{
+    width: 294px;
+    height: 40px;
+  }
 }

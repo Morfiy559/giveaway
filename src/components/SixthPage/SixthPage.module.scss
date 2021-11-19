@@ -1,0 +1,47 @@
+.stepFifth {
+    position: relative;
+    margin: 93px 0;
+    padding: 0 53px 0 67px;
+    display: flex;
+
+    .stepImg {
+        margin-top: 20px;
+    }
+
+    .textBlock {
+        margin-left: 135px;
+        width: 559px;
+
+        .stepNumber {
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 58px;
+            color: rgba(0, 0, 0, 0.6);
+        }
+
+        .title {
+            margin-top: 30px;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 48px;
+
+        }
+
+        .text {
+            font-size: 18px;
+            line-height: 22px;
+            color: rgba(0, 0, 0, 0.6);
+        }
+
+        .agreeButton {
+            margin-top: 40px;
+        }
+
+    }
+
+    .image {
+        position: absolute;
+        margin-left: 20px;
+        right: 53px;
+    }
+}

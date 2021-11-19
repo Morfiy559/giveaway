@@ -78,3 +78,51 @@
         padding: 20px 50px;
     }
 }
+
+@media (max-width: 768px) {
+    .Footer {
+        .circlesBlock {
+            .title {
+                font-size: 30px;
+                line-height: 37px;
+            }
+
+            .circles {
+                .bigText {
+                    font-size: 24px;
+                    line-height: 24px;
+                }
+
+                .circle {
+                    width: 105px;
+                    height: 105px;
+                    img{
+                        width: 46.6px;
+                        height: 46.6px;
+                    }
+                }
+
+                .circleBlock {
+                    .text {
+                        font-size: 14px;
+                        line-height: 17px;
+                        text-align: center;
+                        bottom: 0;
+                        top: 110px;
+                    }
+                }
+            }
+        }
+        .links{
+            padding: 30px 134px 40px 40px;
+            .linkBlock{
+                font-size: 14px;
+                line-height: 17px;
+            }
+        }
+        .CopyRight{
+            font-size: 14px;
+            line-height: 17px;
+        }
+    }
+}

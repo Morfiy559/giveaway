@@ -1,0 +1,27 @@
+.list {
+    display: flex;
+
+    .listItems {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 20px;
+        .listItem{
+            display: flex;
+            gap: 13px;
+            align-items: center;
+            .circle{
+                width: 28px;
+                height: 28px;
+                color: white;
+                background-color: black;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+    }
+}

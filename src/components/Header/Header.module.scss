@@ -1,11 +1,12 @@
 .Header {
-    padding: 0 50px;
+    padding: 0 73px 0 50px;
     display: flex;
     justify-content: space-between;
     background: #EEEEEE;
+    height: 110px;
     .title {
-        margin-top: 20px;
         font-weight: bold;
+        margin-top: 20px;
         font-size: 48px;
     }
     .text{
@@ -16,4 +17,23 @@
         position: relative;
         bottom: -5px;
     }
+
+}
+@media (max-width: 768px) {
+.Header{
+    .title{
+        font-size: 30px;
+        line-height: 37px;
+        margin-top: 15px;
+    }
+    .text{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    img{
+        width: 240px;
+        height: 90px;
+        bottom: -20px;
+    }
+}
 }

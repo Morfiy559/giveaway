@@ -20,6 +20,11 @@
             justify-content: space-between;
             align-items: center;
 
+            .arrows {
+                width: 40px;
+                height: 22px;
+            }
+
             .images {
                 height: 390px;
                 display: flex;
@@ -115,7 +120,8 @@
             font-size: 30px;
             line-height: 37px;
             color: #000000;
-            span{
+
+            span {
                 font-size: 18px;
                 line-height: 22px;
                 font-weight: normal;
@@ -124,15 +130,89 @@
                 color: rgba(0, 0, 0, 0.6);
             }
         }
-        button{
+
+        button {
             margin-top: 20px;
         }
-        .logoAmazonPrime{
+
+        .logoAmazonPrime {
             width: 380px;
             margin-top: 20px;
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .Preview {
+        padding: 40px;
+        gap: 40px;
+
+        .imageBlock {
+            width: 354px;
+            height: 300px;
+            padding: 15px 17px 16px;
+            gap: 21px;
+
+            .carousel {
+                width: 65px;
+
+                .images {
+                    height: 211px;
+
+                    .imageWrapper {
+                        width: 65px;
+                        height: 65px;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .arrows {
+                    width: 22px;
+                    height: 12px;
+                }
+            }
+
+            .image {
+                width: 235px;
+                height: 235px;
+            }
+        }
+        .infoBlock{
+            font-size: 12px;
+            line-height: 15px;
+            .starsBlock{
+                img{
+                    width: 12px;
+                    height: 11.45px;
+                }
+            }
+            .title{
+                font-size: 18px;
+                line-height: 18px;
+            }
+            .itemsLeft{
+                width: 103px;
+            }
+            .line{
+                width: 294px;
+            }
+            .price{
+                font-size: 18px;
+                line-height: 22px;
+                span{
+                    font-size: 14px;
+                    line-height: 17px;
+                }
+            }
+            .logoAmazonPrime{
+                width: 294px;
+            }
         }
     }
 }

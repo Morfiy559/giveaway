@@ -21,14 +21,14 @@ const FirstPage = () => {
             <div className={s.Preview}>
                 <div className={s.imageBlock}>
                     <div className={s.carousel}>
-                        <img src={arrowUp} alt=""/>
+                        <img className={s.arrows} src={arrowUp} alt=""/>
                         <div className={s.images}>
                             <div className={`${s.imageWrapper} ${s.activeImageWrapper}`}><img src={treatment} alt=""/>
                             </div>
                             <div className={s.imageWrapper}><img src={treatment2} alt=""/></div>
                             <div className={s.imageWrapper}><img src={treatment3} alt=""/></div>
                         </div>
-                        <img src={arrowDown} alt=""/>
+                        <img className={s.arrows} src={arrowDown} alt=""/>
                     </div>
                     <img className={s.image} src={bigTreatment} alt="bigTreatment"/>
                 </div>
@@ -42,9 +42,9 @@ const FirstPage = () => {
                     <div className={s.description}>Addictively refreshing gel-cream leaves skin
                         plump, dewy, glowing.</div>
                     <div className={s.itemsLeft}>items left: 12</div>
-                    <div className={s.line}></div>
+                    <div className={s.line}/>
                     <div className={s.price}><span>us$25.89</span> $0.00 FREE</div>
-                    <button className={s.buttonSelect}>Select</button>
+                    <button>Select</button>
                     <div className={s.logoAmazonPrime}><img src={amazonPrime} alt="amazonPrime"/></div>
                 </div>
             </div>
